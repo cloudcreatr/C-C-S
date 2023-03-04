@@ -1,0 +1,9 @@
+{
+  "name": "C++ development environment",
+  "image": "gcc:latest",
+  "extensions": ["ms-vscode.cpptools"],
+  "settings": {
+    "terminal.integrated.shell.linux": "/bin/bash"
+  },
+  
+}
