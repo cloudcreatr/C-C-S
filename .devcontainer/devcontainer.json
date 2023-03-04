@@ -1,7 +1,10 @@
 {
   "name": "C++ development environment",
   "image": "gcc:latest",
-  "extensions": ["ms-vscode.cpptools"],
+  "extensions": [
+	"ms-vscode.cpptools",
+	"formulahendry.code-runner"
+],
   "settings": {
     "terminal.integrated.shell.linux": "/bin/bash"
   },
